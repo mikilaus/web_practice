@@ -1,0 +1,162 @@
+body {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto; 
+}
+
+img {  
+  
+  display: block;  
+  height: 380px;
+  width: 100%; 
+  margin-bottom: 60px;
+  border-top: 5px solid #222;
+  
+}   
+
+.szoveg {
+  
+  display: block;    
+  width: 700px;
+  margin: 0 auto;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.title {
+  position: absolute;
+  top: 230px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 34px;
+  line-height: 50px;
+  color: #222;  
+}
+  
+#anakin {
+  font-size: 68px;
+}
+  
+blockquote {
+  position: relative;
+  width: 110%;
+  background: #444444;
+  padding: 45px 0px 40px 50px;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 47px;
+  line-height: 160%;
+  margin: 60px 0 50px -50px;
+}
+
+blockquote::before {
+  content: '\201C';
+  position: absolute;
+  font-size: 150px;
+  top: 22px;
+  left: 1px;
+}
+
+h1 {
+  font-size: 23px;
+  line-height: 30px;
+  padding-bottom: 30px;
+  
+}
+
+h2 {
+  font-size: 22px;
+  line-height: 40px;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h4 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 0px;
+  font-style: italic;
+  font-family: 'Merriweather', serif;
+}
+
+.close {
+  line-height: 10px;
+}
+
+.small-list {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+#line {
+  border-top: 5px solid #222;
+  margin-top: 40px;
+  margin-bottom:40px;
+  width: 740px;
+  margin-left: -15px;
+}
+
+#moving-arrow-left {
+  height: 120px;
+  width: 120px;
+  background-color: #D3D3D3;
+  border-radius: 50%;
+  color: white;
+  font-size: 50px;
+  text-align: right; 
+  position: fixed;
+  bottom: 400px;
+  left: -95px;
+ 
+   
+}
+
+#moving-arrow-right {
+  height: 120px;
+  width: 120px;
+  background-color: #D3D3D3;
+  border-radius: 50%;
+  color: white;
+  font-size: 50px;
+  text-align: left;  
+  position: fixed;
+  bottom: 400px;
+  right: -93px;
+  
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 40px;
+  margin-right: 25px;
+  font-size: 40px;
+  
+}
+
+#gt {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 40px;
+  margin-left: 30px;
+  font-size: 40px;
+  
+}
+
+#moving-arrow-left:hover {
+  position: fixed;
+  left: -60px;
+  background: grey;
+}
+
+
+#moving-arrow-right:hover {
+  position: fixed; 
+  right: -60px;
+  background: grey;
+}
