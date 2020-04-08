@@ -1,0 +1,41 @@
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    height: 50px;
+    border-color: blue;
+    border-style: solid;
+    vertical-align: middle;
+    margin-bottom: 40px;      
+
+}
+
+.blue {    
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    margin: 10px;
+
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    height: 50px;
+    border-color: blue;
+    border-style: solid;
+    vertical-align: middle;
+    background-color: orange;      
+
+}
+
+.orange {
+    width: 30px;
+    height: 30px;
+    background-color: orchid;
+    margin: 10px;
+
+}
