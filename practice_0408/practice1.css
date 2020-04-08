@@ -1,0 +1,50 @@
+
+body {
+    display: block;
+    margin: auto;
+    width: 625px;
+
+}
+
+.entire {
+    
+   border-style: solid;
+    position: relative; 
+    border-top: none; 
+    border-bottom: none;     
+
+}
+
+.borderlesstop {   
+        
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-top: none;       
+
+}
+
+
+.borderlessbottom {
+   
+    border-bottom: none;
+}
+
+p {
+    border-style: solid;    
+    display: block;
+    margin: auto;
+    width: 600px;
+    padding-bottom: 20px;    
+    padding-top: 20px;
+    padding-left: 20px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;    
+
+}
+
+p:hover {
+    background-color: chocolate;
+}
+
+
